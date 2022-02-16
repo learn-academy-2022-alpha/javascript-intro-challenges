@@ -21,10 +21,14 @@ console.log("supercalifraglisticexpialidocious".toUpperCase())
 
 //Challenge 11
 console.log( 34 / 3 >= 67 / 2)
-//Challenge 9
-console.log(5 === "5")
-//Challenge 10
-console.log(!3 === 3)
-//Challenge 11
-console.log("LEARN".length === 5 && "Student".length === 10)
 //Challenge 12
+console.log(5 == "5")
+//Challenge 13
+console.log(5 === "5")
+//Challenge 14
+console.log(!3 === 3)
+//Challenge 15
+console.log("LEARN".length === 5 && "Student".length === 7)
+//Challenge 16
+console.log("LEARN".length === 5 || "Student".length === 10)
+console.log("LEARN".length === 5)
