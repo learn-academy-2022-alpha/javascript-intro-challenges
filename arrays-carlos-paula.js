@@ -22,3 +22,6 @@ console.log(subsetList)
 
 console.log(subsetList.concat('Beans'))
 
+var number = [2,4,6,8,10]
+var zero = 0
+console.log(zero.concat(number))
