@@ -37,7 +37,7 @@ var numbers = [2, 4, 6, 8, 10]
 
 //Write the code that will add the number 0 to the beginning of the array without altering the original array. HINT: it's not .unshift You'll have to get creative! ;)
 
-console.log(numbers.slice(0,5))
+`console.log(numbers.slice(0,5))
 var numbersTwo = numbers.slice(0,5)
 var justZero = [0]
 console.log(justZero.concat(numbersTwo))
