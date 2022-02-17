@@ -74,5 +74,5 @@ var oddIndexes = []
 
 
 // Write the code that logs the values from the numbers array that are at odd indexes.
-console.log(numbers.slice(oddIndexes)
-// Write the code that adds the values from odd indexes into the oddIndexes array.
+console.log(numbers.slice("")
+// Write the code that adds the values from odd indexes into the oddIndexes array
