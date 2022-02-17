@@ -38,3 +38,28 @@ if (num % 2 === 0) {
 } else {
     console.log("zero")
 }
+
+
+
+// Write a statement that takes a variable of a grade percentage and logs the letter grade for that percentage, if the grade is 100% log "perfect score", if the grade is zero log "no grade available."
+var grade = 100
+if (grade === 100){
+    console.log("perfect score")
+}else console.log("no grade available")
+// Write a statement that takes a variable of a boolean, number, or string data type and logs the data type of the variable. HINT: Check out the JavaScript typeof operator.
+var dataType = 42
+if (typeof dataType === "boolean"){
+    console.log("Boolean")
+}else if (typeof dataType === "string"){
+    console.log("string")
+}else if (typeof dataType === "number"){
+    console.log("number")
+}
+    
+
+// Create a password checker using a single conditional statement. If a user inputs a password with 12 or more characters AND the password includes !, then log "That is a mighty strong password!" If the user’s password is 8 or more characters OR includes !, then log "That password is strong enough." Log "That is not a valid password." for every other input.
+
+var password = "lksjdflaskdjfks!"
+if(password.length() >= 12 && password.includes("!")){
+    console.log("That is a mighty strong password!")
+}
