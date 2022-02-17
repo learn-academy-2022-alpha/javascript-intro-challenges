@@ -1,5 +1,10 @@
 //Write a statement that takes a variable of item and logs "in budget" if a price is $100 or less.
-
+var item = 5
+if (item >= 100){
+    console.log('in budget')
+} else{
+    console.log('out of budget')
+}
 //Write a statement that takes a variable of hungry and logs "eat food" if you are hungry and "keep coding" if you are not hungry.
 
 //Write a statement that takes a variable of trafficLight and logs "go" if the light is green, "slow down" if the light is yellow and "stop" if the light is red.
