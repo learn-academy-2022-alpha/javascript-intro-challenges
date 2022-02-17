@@ -2,7 +2,12 @@
 //Copy the challenges into your JavaScript file. Comment out the instructions and code the solution to each problem beneath the prompt.
 //Make sure you try different options and change the variables to ensure properly working code.
 //Write a statement that takes a variable of item and logs "in budget" if a price is $100 or less.
-
+var price = 50
+if (price <= 100) {
+    console.log("in budget")
+} else {
+    console.log("over budget")
+}
 //Write a statement that takes a variable of hungry and logs "eat food" if you are hungry and "keep coding" if you are not hungry.
 
 var hungry = "yes"
@@ -38,12 +43,18 @@ if (number1 > number2) {
 
 //Write a statement that takes a variable of a number and logs whether the number is odd, even, or zero.
 
-var number3 = 3
-if (number3)
+var number3 = 2
+if (number3 === 0) {
+    console.log("zero")
+} else if (number3 % 2 == 0) {
+    console.log("even")
+} else {
+    console.log("odd")
+}
 
-    //STRETCH Challenges
-    //Write a statement that takes a variable of a grade percentage and logs the letter grade for that percentage, if the grade is 100% log "perfect score", if the grade is zero log "no grade available."
-    var grade = 77
+//STRETCH Challenges
+//Write a statement that takes a variable of a grade percentage and logs the letter grade for that percentage, if the grade is 100% log "perfect score", if the grade is zero log "no grade available."
+var grade = 77
 if (grade >= 90 && grade < 100) {
     console.log("A")
 } else if (grade >= 80 && grade < 90) {
