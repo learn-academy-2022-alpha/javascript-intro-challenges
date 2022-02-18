@@ -33,22 +33,48 @@
 // }
 // console.log(multiply(3, 4))
 // Write a function named divisibleBy that takes two numbers as arguments and returns whether the first number is evenly divisible by the second so that divisibleBy(10, 5) logs "10 is evenly divisible by 5".
-const divisibleBy = (num1, num2) => {
-  if (num1 % num2 === 0) {
-    return `${num1} is evenly divisible by ${num2}.`
-  } else {
-  return "Not evenly divisible."
-  }
-}
-console.log(divisibleBy(11,5))
+// const divisibleBy = (num1, num2) => {
+//   if (num1 % num2 === 0) {
+//     return `${num1} is evenly divisible by ${num2}.`
+//   } else {
+//   return "Not evenly divisible."
+//   }
+// }
+// console.log(divisibleBy(11,5))
 // Write a function named assignGrade that takes a number score as an argument and returns the letter grade for the score.
-//
+// const assignGrade = (num) => {
+//   if(num > 51 ){
+//     return "A"
+// } else {
+//   return "f"
+// }}
+// console.log(assignGrade(60))
+// console.log(assignGrade(20))
 // Write a function named isLonger that takes two strings as arguments and returns the string that contains the most characters.
-//
+// const isLonger = (str1, str2) => {
+//   if(str1.length > str2.length){
+//   return `${str1} is longer than ${str2}`
+// } else {
+//   return `${str2} is longer than ${str1}`
+// }}
+// console.log(isLonger("hello","dog"))
+// console.log(isLonger("sk","jdjdjdj"));
+
 // Write a function named greaterNum that takes two numbers as arguments and returns whichever number is the greater (higher) number.
-//
+// const greaterNum = (num1, num2) => {
+//   if(num1 > num2){
+//     return num1
+//   } else{
+//     return num2
+//   }
+// }
+// console.log(greaterNum(5,2))
+// console.log(greaterNum(2,5))
 // Write a function named yelling that takes a string as an argument and return the string in all uppercase case letters.
-//
+const yelling = (str) => {
+  return str
+}
+console.log(yelling("hello").toUpperCase())
 // STRETCH Challenges
 // The World Translator
 // (a) Write a function named helloWorld that takes a language code (e.g. "es", "de", "en") as an argument and returns "Hello World!" in the given language. Ensure you function works for at least 5 languages.
