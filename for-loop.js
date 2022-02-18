@@ -15,17 +15,17 @@
 // }
 
 
-var nums = [3, 57, -9, 20, 67]
-var largest = 0;
-var smallest = 0;
+// var nums = [3, 57, -9, 20, 67]
+// var largest = 0;
+// var smallest = 0;
 
 // Create a loop that will log the highest number from the array. Expected output --> 67
-for (let i = 0; i < nums.length; i++){
-    if (nums[i]>largest){
-        largest = nums[i]
-    }
-}
-console.log(largest);
+// for (let i = 0; i < nums.length; i++){
+//     if (nums[i]>largest){
+//         largest = nums[i]
+//     }
+// }
+// console.log(largest);
 // Create a loop that will log the lowest number from the array Expected output --> -9
 // for (let i = 0; i < nums.length; i++){
 //     if (nums[i]< smallest){
@@ -39,15 +39,19 @@ console.log(largest);
 
 
 // Create a loop that will log the remainder of each number when divided by 2. Expected output --> 1, 1, -1, 0, 1
-for (let i = 0; i < nums.length; i++){
-    console.log(nums[i]%2);
-}
+// for (let i = 0; i < nums.length; i++){
+//     console.log(nums[i]%2);
+// }
 
 
-var myString = "learn student"
-var count = 0
 
 // Write the code that will log the number of times the letter "e" occurs in the string. Expected output --> 2
+var myString = "learn student"
+var count = 0
 for (let i = 0; i < myString.length; i++){
-    
+    if(myString[i] === "e"){
+        count += 1
+    }
+
 }
+console.log(count);
