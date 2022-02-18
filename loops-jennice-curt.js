@@ -54,7 +54,6 @@ for(let i = 0; i < nums.length; i++){
     console.log(nums[i] % 2)
 }
 
-
 // Looping over a string. Consider this variable:
 // var myString = "learn student"
 // Write the code that will log the number of times the letter "e" occurs in the string. Expected output --> 2
