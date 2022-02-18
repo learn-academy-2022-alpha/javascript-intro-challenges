@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="11d6d4df-6997-491d-93ae-f97a7e927f60" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loops-marc-jacob.js" beforeDir="false" afterPath="$PROJECT_DIR$/loops-marc-jacob.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,11 +43,14 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.loops-marc-jacob.js">
+  <component name="RunManager" selected="Node.js.loops-marc-jacob.js (1)">
     <configuration name="conditionals-jennice-jacob.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="conditionals-jennice-jacob.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
     <configuration name="jspractice-jennice-jacob.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="jspractice-jennice-jacob.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="loops-marc-jacob.js (1)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/loops-marc-jacob.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
     <configuration name="loops-marc-jacob.js" type="NodeJSConfigurationType" working-dir="$PROJECT_DIR$">
@@ -56,9 +60,11 @@
       <item itemvalue="Node.js.loops-marc-jacob.js" />
       <item itemvalue="Node.js.conditionals-jennice-jacob.js" />
       <item itemvalue="Node.js.jspractice-jennice-jacob.js" />
+      <item itemvalue="Node.js.loops-marc-jacob.js (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.loops-marc-jacob.js (1)" />
         <item itemvalue="Node.js.conditionals-jennice-jacob.js" />
         <item itemvalue="Node.js.jspractice-jennice-jacob.js" />
       </list>
@@ -76,6 +82,7 @@
       <workItem from="1645046782512" duration="27000" />
       <workItem from="1645049136912" duration="5492000" />
       <workItem from="1645124340428" duration="3514000" />
+      <workItem from="1645141793284" duration="2229000" />
     </task>
     <servers />
   </component>

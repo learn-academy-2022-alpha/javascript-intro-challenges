@@ -56,6 +56,15 @@ for (let i = 0; i < nums.length; i++) {
 
 }
 
+//Write the code that will log the number of times the letter "e" occurs in the string. Expected output --> 2
+var myString = "learn student"
+var letterE = "e";
+
+var occurences = myString.split(letterE).length - 1;
+    console.log(occurences)
+
+
+
 //----------------------------------------------------------------------------------------->
 //              STRETCH  CHALLENGES
 //Even or Odd: Write a for loop that iterates from 0 to 15. For each iteration, it will check if the current number is odd or even,
