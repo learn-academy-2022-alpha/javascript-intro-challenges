@@ -2,7 +2,7 @@
 // Write a statement that takes a variable of item and logs "in budget" if a price is $100 or less.
 
 var item = "bread"
-var price = 0
+var price = 23
 
 if(price > 0 && price <= 100){
 console.log(`${item} is in budget`)
