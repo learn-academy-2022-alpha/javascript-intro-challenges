@@ -13,11 +13,3 @@
 //     console.log("ODD")
 //   } else {console.log(i)}
 // }
-
-var nums = [3, 57, -9, 20, 67]
-
-for(let i = 0; i<nums.length; i++){
-  if(nums[i] % 2 === 1){
-    console.log(nums[i])
-  }
-}
