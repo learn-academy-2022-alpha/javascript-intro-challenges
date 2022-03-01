@@ -23,7 +23,11 @@ console.log("stevie".length)
 console.log("stevie".includes("e"))
 
 //9
+
+console.log("stevie")
+
 console.log()
+
 
 //10
 console.log
