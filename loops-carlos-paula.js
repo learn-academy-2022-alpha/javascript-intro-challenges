@@ -27,23 +27,4 @@ var nums = [3, 57, -9, 20, 67]
 //    high=nums[i]
 //   }
 // }
-  
-// console.log(high)
 
-
-// let low = nums [0]
-
-// for (let i=0; i<nums.length; i++){
-//  if (nums[i]<low) {
-//    low=nums[i]
-//   }
-// }
-// console.log(low)
-
-
-
-for(let i=1; i <nums.length; i++){
-  if([i] % 2 ){
-    console.log((i))
-  }
-}
