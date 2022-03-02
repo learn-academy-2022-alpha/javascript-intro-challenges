@@ -8,4 +8,5 @@ console.log(67-123)
 var greeting = "Ayyyyyeeeee"
 console.log(greeting.includes("e"))
 console.log(greeting.charAt(0))
+
 console.log(greeting.toUpperCase())
